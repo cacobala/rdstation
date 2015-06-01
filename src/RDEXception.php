@@ -1,8 +1,8 @@
-<?php namespace Rluders\RDStation;
+<?php namespace Cacobala\RDStation;
 
 use namespace Guzzle\Http\Exception\RequestException;
 
-class RDException exnteds RequestException
+class RDException extends RequestException
 {
 	
 	public function __construct(
